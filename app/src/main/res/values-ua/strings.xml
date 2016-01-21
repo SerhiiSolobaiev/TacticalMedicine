@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Тактична медицина</string>
+    <string name="title_activity_search">Пошук</string>
+
+    <string name="sort_by">Sort...</string>
+
+    <string name="home_item">Головна</string>
+    <string name="show_all_traumas">Показати всі травми</string>
+    <string name="help_item">Допомога</string>
+    <string name="settings_item">Налаштування</string>
+    <string name="about_item">Про розробників</string>
+
+    <string name="select_part_body">Оберіть частину тіла</string>
+    <string name="select_trauma">Оберіть травму</string>
+
+    <string name="alert_title">Показати травми для</string>
+    <string name="font_size">Розмір шрифту</string>
+    <string name="set_font_size">Встановити розмір шрифту</string>
+    <string name="yes">Так</string>
+    <string name="yes_for_one_way">Зрозуміло</string>
+    <string name="no">Не зараз</string>
+
+    <string name="assistance_for_app">Для пошуку травми необхідно натиснути на іконку пошуку, що знаходиться
+    у верхньому правому куті або відкрити меню (свайпом від правої сторони) та обрати пункт "Показати всі травми"
+    Щоб подивитися травми, які відносяться до певної частини тіла необхідно натиснути на цю частину тіла на зображенні
+    солдата або обрати зі списку, натиснувши на поле "Оберіть частину тіла", яке знаходиться над картинкою солдата.
+    Щоб подивитися першу допомогу для певної травми необхідно натиснути на її назву.</string>
+    <string name="about_for_app">Студенти групи ІС-52с:\n
+        Солобаєв С.Г.\n
+        Кобизький Я.В.\n
+        Бабенко І.С.\n
+        Шпак О.В.\n
+        Івченко Р.Н.</string>
+    <string name="pref_language_title">Мова</string>
+    <string name="pref_language_header">Налаштування мови</string>
+    <string name="pref_language_text">Оберіть мову застосунку</string>
+
+    <string name="head">голови</string>
+    <string name="hand">рук</string>
+    <string name="body">тулуба</string>
+    <string name="leg">ніг</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@android:color/white"
+    app:popupTheme="@style/AppTheme.PopupOverlay"
+    app:theme="@style/ToolBarStyle"
+    android:layout_marginBottom="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="32dp"
+            android:textColor="@android:color/darker_gray"
+            android:hint="@string/title_activity_search"
+            android:id="@+id/editTextSearch"
+            />
+
+        <Button
+            android:id="@+id/delete_all_text"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/close"
+            android:visibility="invisible"
+            android:onClick="deleteTextFromSearchField" />
+
+    </FrameLayout>
+</android.support.v7.widget.Toolbar>

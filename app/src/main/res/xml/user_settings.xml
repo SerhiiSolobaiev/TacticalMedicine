@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- <PreferenceCategory android:title="Settings" >
+        <EditTextPreference
+            android:title="@string/font_size"
+            android:summary="@string/set_font_size"
+            android:key="prefUserName"/>
+    </PreferenceCategory>
+-->
+    <PreferenceCategory android:title="@string/pref_language_header" >
+
+        <ListPreference
+            android:key="prefAppLanguage"
+            android:title="@string/pref_language_title"
+            android:summary="@string/pref_language_text"
+            android:defaultValue="1"
+            android:entries="@array/updateLanguage"
+            android:entryValues="@array/updateFrequencyValues"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

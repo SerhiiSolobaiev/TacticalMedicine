@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">TacticalMedicine</string>
+    <string name="title_activity_search">Search</string>
+
+    <string name="sort_by">Sort...</string>
+
+    <string name="home_item">Home</string>
+    <string name="show_all_traumas">Show all traumas</string>
+    <string name="help_item">Assistance</string>
+    <string name="settings_item">Settings</string>
+    <string name="about_item">About</string>
+
+    <string name="select_part_body">Select the part of the body</string>
+    <string name="select_trauma">Select trauma</string>
+
+    <string name="alert_title">Show traumas for</string>
+    <string name="font_size">Font size</string>
+    <string name="set_font_size">Set Font Size</string>
+    <string name="yes">Yes</string>
+    <string name="no">Not now</string>
+    <string name="yes_for_one_way">I`ve got it</string>
+    <string name="assistance">Assistance</string>
+    <string name="assistance_for_app">To search injury should click on search icon located in the upper right corner or open the menu (svaypom from right) and select "Show all injuries." To see injuries that relate to a specific part of the body should click on this part of the body of the soldier in the picture or choose from the list by clicking on the field "Select part of the body," which is located above the image of a soldier. To see some first aid for injuries should click on its name.</string>
+    <string name="about_for_app">Students of IS-52s:\n
+         Solobayev S.G.\n
+         Kobyzkyy Y.V.\n
+         Babenko I.S.\n
+         Shpak A.V.\n
+         Ivchenko R.H.</string>
+
+    <string name="pref_language_title">Language</string>
+    <string name="pref_language_header">Language settings</string>
+    <string name="pref_language_text">Set Language Of The Program</string>
+
+    <string name="head">head</string>
+    <string name="hand">hand</string>
+    <string name="body">body</string>
+    <string name="leg">leg</string>
+</resources>
